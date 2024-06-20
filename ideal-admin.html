@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ideal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<style>
+    .pr-brdr{
+        border: 1px solid black;
+    }
+    header{
+        box-shadow: 4px 2px 6px #0000000A;
+        padding: 10px;
+    }
+    .pr-search{
+        border: none;
+    }
+    .pr-font-color-purple{
+        color: #4A274F;
+    }
+    .nav-tabs .nav-link:hover {
+        border: none;
+        color: #4A274F;
+    }
+    .nav-link{
+        color: #4A274F;
+    }
+    .nav-tabs .nav-link{
+        border: none !important;
+        background-color: none;
+    }
+    .nav-tabs{
+        border: none;
+    }
+    .nav-link:focus{
+        border: none;
+        color: #4A274F;
+    }
+    .pr-circle{
+        width: 40px;
+        height:40px;
+        background-color: #4A274F;
+    }
+    .pr-accordion{
+      background-color: #442460;
+    }
+    .pr-acc{
+      --bs-gutter-x: 0rem;
+    }
+    .accordion-button{
+        color:#fff !important;
+        background-color: #56396F;
+        border: none;
+    }
+    .accordion-item{
+        background-color: #442460;
+    }
+    .accordion-button:not(.collapsed){
+      box-shadow: none !important;
+      background-color: #442460 !important;
+    }
+    .accordion-button:not(.collapsed)::after {
+      transform: rotate(270deg);
+    }
+    .accordion-button::after{
+      width: 0px;
+      height: 0px;
+    }
+    .pr-font-orange{
+      color: #FFB900;
+      
+    }
+    .accordion-button .pr-client{
+      border-left: 2px solid #FFB900;
+    }
+    .pr-img-box{
+      position:relative;
+      height: 200px;
+      background-color: #F8EEFA;
+    }
+    .pr-f-login{
+      position:absolute;
+      top: 40px;
+      left: 250px;
+    }
+    .pr-btn-new-project{
+      background-color: #442460;
+      color: white;
+    }
+    .btn:hover{
+      color: white !important;
+    }
+    .pr-input{
+      border: none;
+      border-bottom: 1px solid #808080;
+    }
+    .pr-btn-reset-screen{
+      background-color:#fff;
+      color:#000;
+      border: 1px solid #000;
+    }
+</style>
+
+<body>
+    <section>
+        <header class="m-2">
+            <div class="row align-content-center">
+                <div class="col-2 d-flex align-items-center"><img src="/image/logo.png" class="ms-2"><h5 class="ms-3 mt-2 pr-font-color-purple">NEURO LAB</h5></div>
+                <div class="col-7 align-content-center"><i class="fa fa-search text-secondary" aria-hidden="true"></i><input type="text" placeholder=" Search or help" name="search" class="pr-search"></div>
+                <div class="col-1 align-content-center">
+                    <span><img src="/image/Support Iocn.png" class="me-3"><img src="/image/Chat Icon.png" class="me-3"><img src="/image/Notification.png" class="me-3"></span>
+                </div>
+                <div class="col-2 d-flex ">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Nidhi Bokhadiya</a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          </ul>
+                        </li>
+                    </ul>
+                    <img src="/image/Ellipse 341.png" class="">
+                </div>
+            </div>
+        </header>
+    </section>
+    <section>
+      <div class="m-0">
+        <div class="row pr-acc">
+            <div class="col-2 m-0">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <span><i class="fa fa-home me-2" aria-hidden="true"></i></span>HOME
+                        </button>
+                      </h2>
+                      <!-- <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        
+                      </div> -->
+                    </div>
+                    <div class="accordion-item text-danger">
+                      <h2 class="accordion-header  ">
+                        <button class="accordion-button pr-client" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            <span class="pr-font-orange"><i class="fa fa-bar-chart me-2" aria-hidden="true"></i>Client dashboard <i class="fa-solid fa-greater-than"></i></span>
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                          <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    <span><i class="fa fa-home me-2" aria-hidden="true"></i></span>HOME
+                                </button>
+                              </h2>
+                              <!-- <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                
+                              </div> -->
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            <span><i class="fa fa-envelope me-2" aria-hidden="true"></i></span>Solutions
+                        </button>
+                      </h2>
+                      <!-- <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body"></div>
+                      </div> -->
+                    </div>
+                  
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        <span><i class="material-icons me-0">receipt</i></span>Payment history
+                      </button>
+                    </h2>
+                    <!-- <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body"></div>
+                    </div> -->
+                  </div>
+                
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                          <span><i class="fa fa-support me-2" aria-hidden="true"></i></span>Resource
+                      </button>
+                    </h2>
+                    <!-- <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body"></div>
+                    </div> -->
+                  </div>
+                
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                          <span class="me-3">$</span>Pricing
+                      </button>
+                    </h2>
+                    <!-- <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body"></div>
+                    </div> -->
+                  </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                        <span><i class="fa fa-user me-2"></i></span>Help
+                      </button>
+                    </h2>
+                    <!-- <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body"></div>
+                    </div> -->
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                        <span><i class="fa fa-gear me-2"></i></span>Settings
+                      </button>
+                    </h2>
+                    <!-- <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body"></div>
+                    </div> -->
+                </div>
+            </div>
+          </div>
+          <div class="col-10 m-0 p-0">
+            <div class="pr-img-box m-5 ms-5 me-5 align-content-center justify-content-center">
+              <img src="image/firstlogin.svg" class="w-100 p-5">
+              <div class="pr-f-login">
+                <h4 class="pr-font-color-purple">First time login</h4>
+                <p class="pr-font-color-purple">Create your first project & get started</p>
+              </div>
+              <div class="row">
+                <div class="col-6"><h2 class="pr-font-color-purple">User Experience Mapping</h2></div>
+                <div class="col-6"><button type="submit" class="btn pr-btn-new-project float-end" data-bs-toggle="modal" data-bs-target="#exampleModal">Create new Project</button></div>
+              </div>
+            </div>
+          </div>  
+        </div>
+      </div> 
+
+    </section>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Let's Create a Project For You !</h4>
+          </div>
+          <div class="modal-body">
+            <p>We need a little information to create your first project. This should take just a couple of minutes.</p>
+            <h6>All fields are required*</h6>
+            <form>
+              <div class="row mt-3">
+                <div class="col-6"><input type="text" placeholder="Enter Project Name" class="pr-input"></div>
+                <div class="col-6"><input type="text" placeholder="Enter Research market" class="pr-input"></div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-6"><input type="text" placeholder="Enter Sample Size" class="pr-input"></div>
+                <div class="col-6">
+                  <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle pr-input" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Survey Type
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </li>
+                </ul>
+              </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn pr-btn-reset-screen float-end" data-bs-toggle="modal" data-bs-target="#exampleModal">Reset Screen</button>
+            <button type="submit" class="btn pr-btn-new-project float-end" data-bs-toggle="modal" data-bs-target="#exampleModal">Create Project</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
